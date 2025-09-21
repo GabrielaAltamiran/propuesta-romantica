@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Un viaje para ti 💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="book" id="book">
+    <div class="topbar"></div>
+    <canvas id="confetti"></canvas>
+    <div class="sticker">Gabriela Altamirano</div>
+
+    <!-- Página 1: Introducción -->
+    <section class="page active" data-page="1">
+      <h1>Hola mi amor❤️💕</h1>
+      <p class="lead">
+        Mi amor 💖, te hice este detalle porque hubo unos problemitas con los pagos hacia Colombia. Perdóname, 
+        pero quiero que sepas que este detalle está hecho con todo mi amor 💌✨, pensando solo en ti. 
+        Espero que te encante, mi vida 💙🧡
+      </p>
+      <div class="actions">
+        <button class="btn" data-next>Continuar</button>
+      </div>
+      <div class="soft-footer"></div>
+    </section>
+
+    <!-- Página 2: Recuerdos -->
+    <section class="page" data-page="2">
+      <h1>Momentos que amo❤️💕</h1>
+      <p class="lead">
+        Mi amor 💖, cada llamada contigo me hace feliz ✨. Garen 🐾 simboliza nuestra familia, y la luna 🌙 siempre me recuerda a ti ❤️      <div class="carousel" id="carousel">
+        <img src="WhatsApp Image 2025-09-21 at 6.12.41 PM.jpeg" alt="Recuerdo 1" class="active">
+        <img src="WhatsApp Image 2025-09-21 at 6.12.49 PM.jpeg" alt="Recuerdo 2">
+        <img src="WhatsApp Image 2025-09-21 at 6.13.07 PM.jpeg" alt="Recuerdo 3">
+
+        <div class="dots"></div>
+      </div>
+      <div class="actions">
+        <button class="btn" data-next>Siguiente</button>
+      </div>
+      <div class="soft-footer"></div>
+    </section>
+
+    <!-- Página 3: Sentimientos -->
+    <section class="page" data-page="3">
+      <h1>Mis sentimientos 💖</h1>
+      <div class="letter" aria-label="Carta">
+        Amor 💖, desde que llegaste a mi vida descubrí lo que es amar de verdad. He aprendido que el amor no solo se vive en los momentos felices ✨, también en esos días difíciles donde a veces discutimos o no nos entendemos. Pero incluso en medio de los malos momentos,
+        sigo sintiendo que tú eres mi refugio, mi paz y mi fuerza 💌.
+        Amo escuchar tu voz, tu risa, tus historias y hasta tus silencios, porque contigo todo tiene sentido. 
+        Adoro cuando celebramos juntas las alegrías, pero también valoro cuando enfrentamos unidas las tristezas, porque eso me demuestra lo fuerte que es lo nuestro.
+        Sé que no somos perfectas, pero lo que tenemos es real, único y especial ❤️. 
+        Gracias por caminar conmigo en lo bueno y en lo malo, por ser mi alegría en los días claros y mi abrazo en los días grises. 
+        Eres mi hogar, mi presente y mi futuro, y por eso te amo con todo mi corazón 
+      </div>
+      <div class="actions">
+        <button class="btn" data-next>Continuar</button>
+      </div>
+      <div class="soft-footer"></div>
+    </section>
+
+    <!-- Página 4: La gran pregunta -->
+    <section class="page" data-page="4">
+      <h1>La gran pregunta 💍</h1>
+      <p class="lead question">¿Me permites ser tú novia?</p>
+      <div class="actions ask">
+        <button class="btn yes btn-big" id="yesBtn">Sí 💙🧡</button>
+        <button class="btn no" id="noBtn" aria-label="No">No</button>
+      </div>
+      <p id="noMsg" class="no-msg" aria-live="polite"></p>
+      <div class="soft-footer"></div>
+    </section>
+
+    <!-- Página 5: Celebración -->
+    <section class="page" data-page="5">
+      <h1>Nuestro ‘sí’ lo cambia todo 💙🧡</h1>
+      <p class="lead">
+        Gracias, mi amor, por elegir este viaje a mi lado. Prometo llenar tus días de sonrisas que te acompañen incluso en los momentos más difíciles ✨. 
+        Cuando lleguen tormentas 🌧️, quiero ser tu calma, tu refugio y tu fuerza;
+        cuando llegue la alegría, quiero celebrarla contigo, multiplicándola con cada risa y cada abrazo.
+        Te prometo regalarte un mundo de abrazos en cada amanecer 🌅, besos que te recuerden cuánto te amo y detalles 
+        que te hagan sentir lo especial que eres para mí 💌. No somos perfectas, pero juntas
+        somos invencibles, porque nuestro amor se fortalece en cada paso que damos, en lo bueno y en lo malo.
+        Gracias por ser mi compañera, mi cómplice, mi refugio y mi razón de soñar. Te amo con todo lo que soy y con todo lo que seré, hoy y siempre ❤️
+      </p>
+      <div class="actions">
+        <button class="btn" id="replay">Volver a leer</button>
+      </div>
+      <div class="soft-footer"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
